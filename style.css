@@ -1,0 +1,75 @@
+html, body { height: 100%; width: 100%; margin: 0; background-color:#A8DADC;}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 7px;
+    margin: 10px;
+    background-color: #1D3557;
+    border-radius: 3px;
+}
+
+.primary-container {
+    width: 25%;
+    height: 70%;
+    margin: 5% auto;
+    background-color: #457B9D;
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5)
+}
+
+.display-container {
+    flex-basis: 100%;
+    height: 20%;
+    background-color: #F1FAEE;
+    border-radius: 20% 5%;
+}
+
+.text-display {
+    font-size: 25px;
+}
+
+.digit-container {
+    flex: 3;
+    height: 65%;
+    align-items: stretch;
+}
+
+.button-row {
+    flex-basis: 100%;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.button {
+    flex: 1;
+    margin: 2px;
+    background-color: #d2dad0;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.operation-container {
+    flex-direction: column;
+    flex: 1;
+    height: 65%;
+    align-items: stretch;
+}
+
+.operation-container > .button {
+    background-color: #E63946;
+
+}
+
+.text-display {
+    color: #887d92
+}
+
+.clear {
+    background-color: #E63946;
+}
