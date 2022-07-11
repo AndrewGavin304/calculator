@@ -73,3 +73,7 @@ html, body { height: 100%; width: 100%; margin: 0; background-color:#A8DADC;}
 .clear {
     background-color: #E63946;
 }
+
+.equals {
+    flex: 1.5
+}
